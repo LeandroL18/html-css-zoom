@@ -1,0 +1,85 @@
+/* Stili generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+:root{
+    background-color: black;
+}
+.bg_grey{
+    background-color: grey;
+}
+
+/* Stili header */
+header{
+    position: fixed;
+    top: 10px;
+    right: 5px;
+
+}
+header button{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin-right: 5px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+header button:last-child i{
+    transform: rotate(45deg);
+}
+/* Fine stili header */
+
+/* Stili footer (nav_bar) */
+#nav_bar{
+    background-color: rgb(42, 42, 42);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 6%;
+    z-index: 1;
+    display: flex;
+}
+.cella{
+    height: 100%;
+    padding: 10px ;
+    display: flex;
+    align-items: center;
+}
+.cella:nth-child(2){
+    justify-content: center;
+    flex-grow: 2;
+}
+.cella:nth-child(3) a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+.cella div{
+    margin:0 5px;
+    text-align: center;
+}
+.i_grandi{
+    font-size: 25px;
+    margin-right: 12px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.i_angolari{
+    font-size: 10px;
+
+}
+.cella span{
+    margin-right: 10px;
+}
+.fa-share-from-square{
+    color: green;
+}
+/* Fine stili footer (nav_bar) */
