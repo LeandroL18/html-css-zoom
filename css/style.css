@@ -26,15 +26,46 @@ header button{
     padding: 5px;
     margin-right: 5px;
 }
+header button:hover{
+    cursor: pointer;
+}
 button a{
     text-decoration: none;
     color: white;
 }
-
 header button:last-child i{
     transform: rotate(45deg);
 }
 /* Fine stili header */
+
+/* Stili main */
+#container{
+    margin: 2.5% auto;
+    height: 88vh;
+    width: 90%;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#container div{
+    height: 150px;
+    width: 230px;
+    margin:5px;
+    position: relative;
+}
+#container div img{
+    width: 100%;
+}
+#container div label{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+/* Fine stili main */
 
 /* Stili footer (nav_bar) */
 #nav_bar{
@@ -65,6 +96,9 @@ header button:last-child i{
 .cella div{
     margin:0 5px;
     text-align: center;
+}
+.cella div:hover{
+    cursor: pointer;
 }
 .i_grandi{
     font-size: 25px;
